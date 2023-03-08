@@ -4,6 +4,7 @@ This Terraform module is used to provision resources in Google Cloud Platform's 
 
 # usage
 To use this module, include it in your Terraform configuration and pass in the necessary parameters to the artifact-config block. For example:
+```
 
 module "my-repo" {
   source = "github.com/hashicorp/example"
